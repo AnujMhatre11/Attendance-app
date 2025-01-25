@@ -1,0 +1,782 @@
+[
+    {
+        "Course Name": "Internet Programming",
+        "Module": "Prerequisite ",
+        "Divided Content": "Hour 1:  Introduction and basics of HTML"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "Prerequisite ",
+        "Divided Content": "Hour 2:  CSS     "
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": " Web programming fundamentals   ",
+        "Divided Content": "Hour 1: Working of web browser,  DNS,  Json\r\nintroduction,  URI"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": " Web programming fundamentals   ",
+        "Divided Content": "Hour 2:  HTTP protocol,  TLS,  DOM,  REST API"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": " Web programming fundamentals   ",
+        "Divided Content": "Hour 3: \r\nHTTPS,  XML introduction,  URL"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "Java script",
+        "Divided Content": "Hour 1: Introduction to ES6,  Arrow functions,  Fetch"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "Java script",
+        "Divided Content": "Hour 2:  Difference between ES5 and\r\nES6. Variables, \r\nSetting CSS Styles using JavaScript"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "Java script",
+        "Divided Content": "Hour 3:  Condition,  DOM\r\nmanipulation"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "Java script",
+        "Divided Content": "Hour 4:  Loops,  Classes and Inheritance.\r\nIterators and Generators"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "Java script",
+        "Divided Content": "Hour 5:  Functions,  Promise"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "Java script",
+        "Divided Content": "Hour 6: \r\nEvents,  Client-server\r\ncommunication"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "React fundamentals",
+        "Divided Content": "Hour 1: Installation,  UI design"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "React fundamentals",
+        "Divided Content": "Hour 2:  Installing libraries,  Forms"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "React fundamentals",
+        "Divided Content": "Hour 3:  Folder and file\r\nstructure,  Events"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "React fundamentals",
+        "Divided Content": "Hour 4:  Components, \r\nAnimations"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "React fundamentals",
+        "Divided Content": "Hour 5:  Component lifecycle,  Best practices."
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "React fundamentals",
+        "Divided Content": "Hour 6: \r\nState and Props"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "React fundamentals",
+        "Divided Content": "Hour 7:  React Router and Single page\r\napplications"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "Advanced React",
+        "Divided Content": "Hour 1: Functional components- Refs"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "Advanced React",
+        "Divided Content": "Hour 2:  Use effects"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "Advanced React",
+        "Divided Content": "Hour 3: \r\nHooks"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "Advanced React",
+        "Divided Content": "Hour 4:  Flow architecture"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "Advanced React",
+        "Divided Content": "Hour 5:  Model-ViewController framework"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "Advanced React",
+        "Divided Content": "Hour 6:  Flux"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "Advanced React",
+        "Divided Content": "Hour 7:  Bundling the\r\napplication. Web pack."
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "Node.js",
+        "Divided Content": "Hour 1: Environment setup,  Networking module"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "Node.js",
+        "Divided Content": "Hour 2:  First app, \r\nBuffers"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "Node.js",
+        "Divided Content": "Hour 3:  Asynchronous\r\nprogramming,  Streams"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "Node.js",
+        "Divided Content": "Hour 4:  Callback concept,  File system"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "Node.js",
+        "Divided Content": "Hour 5:  Event loops,  Web module"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "Node.js",
+        "Divided Content": "Hour 6: \r\nREPL"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "Node.js",
+        "Divided Content": "Hour 7:  Event emitter"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "Express",
+        "Divided Content": "Hour 1: Introduction"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "Express",
+        "Divided Content": "Hour 2:  Express router"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "Express",
+        "Divided Content": "Hour 3:  REST API"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "Express",
+        "Divided Content": "Hour 4: \r\nGenerator"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "Express",
+        "Divided Content": "Hour 5:  Authentication"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "Express",
+        "Divided Content": "Hour 6:  sessions"
+    },
+    {
+        "Course Name": "Internet Programming",
+        "Module": "Express",
+        "Divided Content": "Hour 7:  Integrating\r\nwith React."
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "Prerequisite",
+        "Divided Content": "Hour 1: Basic concepts of Computer \r\nNetworks & Network Design"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "Prerequisite",
+        "Divided Content": "Hour 2:  Operating System"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "Introduction to Network Security & cryptography",
+        "Divided Content": "Hour 1: Computer security and Network Security(Definition),  transposition techniques: keyed and keyless transposition ciphers). Introduction to steganography."
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "Introduction to Network Security & cryptography",
+        "Divided Content": "Hour 2:  CIA"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "Introduction to Network Security & cryptography",
+        "Divided Content": "Hour 3:  Services"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "Introduction to Network Security & cryptography",
+        "Divided Content": "Hour 4:  Mechanisms and attacks"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "Introduction to Network Security & cryptography",
+        "Divided Content": "Hour 5:  \r\nThe OSI security architecture"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "Introduction to Network Security & cryptography",
+        "Divided Content": "Hour 6:  Network security model. Classical Encryption techniques (mono-alphabetic and poly-alphabetic substitution techniques: Vigenere cipher"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "Introduction to Network Security & cryptography",
+        "Divided Content": "Hour 7:  playfair cipher"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "Cryptography: Key management, distribution and user authentication",
+        "Divided Content": "Hour 1: Block cipher modes of operation,  Digital Certificate: X.509"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "Cryptography: Key management, distribution and user authentication",
+        "Divided Content": "Hour 2: Data Encryption Standard,  PKI"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "Cryptography: Key management, distribution and user authentication",
+        "Divided Content": "Hour 3:  Advanced Encryption Standard (AES). RC5 algorithm. \r\nPublic key cryptography: RSA algorithm. Hashing Techniques: SHA256"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "Cryptography: Key management, distribution and user authentication",
+        "Divided Content": "Hour 4:  SHA-512"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "Cryptography: Key management, distribution and user authentication",
+        "Divided Content": "Hour 5:  HMAC and CMAC"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "Cryptography: Key management, distribution and user authentication",
+        "Divided Content": "Hour 6:  Digital Signature Schemes "
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "Cryptography: Key management, distribution and user authentication",
+        "Divided Content": "Hour 7:  RSA"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "Cryptography: Key management, distribution and user authentication",
+        "Divided Content": "Hour 8:  DSS. Remote user Authentication Protocols"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "Cryptography: Key management, distribution and user authentication",
+        "Divided Content": "Hour 9:  Kerberos"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "Malicious Software",
+        "Divided Content": "Hour 1: SPAM,  System Corruption,  Keyloggers,  Denial of Service Attacks"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "Malicious Software",
+        "Divided Content": "Hour 2:  Trojan horse,  Attack Agents,  Phishing,  Zombie"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "Malicious Software",
+        "Divided Content": "Hour 3:  Viruses,  \r\nInformation Theft,  Backdoors"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "Malicious Software",
+        "Divided Content": "Hour 4:  Worms,  Trapdoor,  Rootkits"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "IP Security, Transport level security and Email Security",
+        "Divided Content": "Hour 1: IP level Security: Introduction to IPSec,  Secure Shell (SSH) Protocol Stack. Email Security: Secure Email S/MIME Screen reader support enabled."
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "IP Security, Transport level security and Email Security",
+        "Divided Content": "Hour 2:  IPSec Architecture"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "IP Security, Transport level security and Email Security",
+        "Divided Content": "Hour 3:  Protection Mechanism (AH and ESP)"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "IP Security, Transport level security and Email Security",
+        "Divided Content": "Hour 4:  Transport level security: \r\nVPN. Need Web Security considerations"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "IP Security, Transport level security and Email Security",
+        "Divided Content": "Hour 5:  Secure Sockets Layer (SSL)Architecture"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "IP Security, Transport level security and Email Security",
+        "Divided Content": "Hour 6:  Transport Layer Security (TLS)"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "IP Security, Transport level security and Email Security",
+        "Divided Content": "Hour 7:  HTTPS"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "Network Management Security and Network Access Control",
+        "Divided Content": "Hour 1: Network Management Security:SNMPv3"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "Network Management Security and Network Access Control",
+        "Divided Content": "Hour 2:  NAC:Principle elements of NAC"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "Network Management Security and Network Access Control",
+        "Divided Content": "Hour 3: Principle NAC enforcement methods"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "Network Management Security and Network Access Control",
+        "Divided Content": "Hour 4: \r\n How to implement NAC Solutions"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "Network Management Security and Network Access Control",
+        "Divided Content": "Hour 5:  Use cases for network access control"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "Network Management Security and Network Access Control",
+        "Divided Content": "Hour 6: "
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "System Security",
+        "Divided Content": "Hour 1: IDS"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "System Security",
+        "Divided Content": "Hour 2:  Firewall Design Principles"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "System Security",
+        "Divided Content": "Hour 3:  \r\nCharacteristics of Firewalls"
+    },
+    {
+        "Course Name": "Computer Network Security",
+        "Module": "System Security",
+        "Divided Content": "Hour 4:  Types of Firewalls"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Introduction",
+        "Divided Content": "Hour 1: Concept,  Classification and types of Entrepreneurs. Characteristics and qualities of successful Entrepreneurs"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Introduction",
+        "Divided Content": "Hour 2:  meaning and definition of Entrepreneur and Entrepreneurship. Evolution of Entrepreneurship,  Women Entrepreneurs"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Introduction",
+        "Divided Content": "Hour 3:  \r\nRole of Entrepreneurship in economic Development,  Corporate & Social entrepreneurship."
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Introduction",
+        "Divided Content": "Hour 4:  Managerial vs entrepreneurial approach"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Entrepreneurship Developme nt and Leadership",
+        "Divided Content": "Hour 1: Entrepreneurial Motivation: motivating factors,  Entrepreneurship process. Types of Enterprises and Ownership Structure: small scale,  Ltd. companies and co-operatives: their formation"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Entrepreneurship Developme nt and Leadership",
+        "Divided Content": "Hour 2:  \r\nTypes of startups,  medium scale and large-scale enterprises: Meaning and definition (evolution),  capital structure and source of finance."
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Entrepreneurship Developme nt and Leadership",
+        "Divided Content": "Hour 3:  Characteristics of entrepreneurial leadership,  role of small enterprises in economic development"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Entrepreneurship Developme nt and Leadership",
+        "Divided Content": "Hour 4:  Components of Entrepreneurial Leadership,  proprietorship"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Entrepreneurship Developme nt and Leadership",
+        "Divided Content": "Hour 5:  Factors influencing entrepreneurial development and motivation,  Policies governing SMEs"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Entrepreneurship Developme nt and Leadership",
+        "Divided Content": "Hour 6:  Entrepreneurial Opportunities and challenges,  partnership"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "New Venture Planning",
+        "Divided Content": "Hour 1: Methods to Initiate Ventures,  Business plan failures."
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "New Venture Planning",
+        "Divided Content": "Hour 2:  \r\nAcquisition-Advantages of acquiring an ongoing venture and examination of key issues"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "New Venture Planning",
+        "Divided Content": "Hour 3:  Developing a Marketing plan-customer analysis"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "New Venture Planning",
+        "Divided Content": "Hour 4:  sales analysis and competition analysis"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "New Venture Planning",
+        "Divided Content": "Hour 5:  Business Plan-benefits of drivers"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "New Venture Planning",
+        "Divided Content": "Hour 6:  perspectives in business plan preparation"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "New Venture Planning",
+        "Divided Content": "Hour 7:  elements of a business plan"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Financing & Managing Venture",
+        "Divided Content": "Hour 1: Financing Stages,  introduction to human resource management: planning"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Financing & Managing Venture",
+        "Divided Content": "Hour 2:  Sources of Finance,  job analysis"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Financing & Managing Venture",
+        "Divided Content": "Hour 3:  Venture Capital,  training"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Financing & Managing Venture",
+        "Divided Content": "Hour 4:  \r\nCriteria for evaluating new-venture proposals & Capital-process. Management of venture: objectives and functions of management,  recruitment and selection"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Financing & Managing Venture",
+        "Divided Content": "Hour 5:  scientific management"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Financing & Managing Venture",
+        "Divided Content": "Hour 6:  general and strategic management"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Overview of E – business",
+        "Divided Content": "Hour 1: Concept of E-business,  clicks and Bricks in ecommerce"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Overview of E – business",
+        "Divided Content": "Hour 2:  Business Success through\r\n adoption of technology,  collaborative commerce. E-Marketplace"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Overview of E – business",
+        "Divided Content": "Hour 3:  information management for business Initiatives,  M-commerce"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Overview of E – business",
+        "Divided Content": "Hour 4:  Performance improvement through e-business. Introduction to various collaborative partnerships,  E-Government"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Overview of E – business",
+        "Divided Content": "Hour 5:  E-commerce: Sectors of ecommerce,  Various E-business Models"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Overview of E – business",
+        "Divided Content": "Hour 6:  B to C,  Challenges of the E-Business Models"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Overview of E – business",
+        "Divided Content": "Hour 7:  B to B and C to C ecommerce,  Globalization of E-business."
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Overview of E – business",
+        "Divided Content": "Hour 8:  Ecommerce success factors"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Strategic Initiatives for Technology",
+        "Divided Content": "Hour 1: Customer Relationship Management:\r\n The evolution of CRM,  importance,  Implementation of eprocurement"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Strategic Initiatives for Technology",
+        "Divided Content": "Hour 2:  functional areas of CRM,  and characteristics of SCM"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Strategic Initiatives for Technology",
+        "Divided Content": "Hour 3:  contemporary trends - SRM,  Elements of SCM"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Strategic Initiatives for Technology",
+        "Divided Content": "Hour 4:  PRM AND ERM,  Push & Pull supply chain model"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Strategic Initiatives for Technology",
+        "Divided Content": "Hour 5:  Future Trends of CRM Enterprise Resource Planning: Core and Extended ERP,  Use of e-business to restructure supply chain"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Strategic Initiatives for Technology",
+        "Divided Content": "Hour 6:  components of ERP system,  Supply chain management implementation Procurement: Meaning and advantages of e –procurement"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Strategic Initiatives for Technology",
+        "Divided Content": "Hour 7:  Benefits and Risks of ERP implementation Supply Chain Management: Meaning,  Types& Drivers of e- procurement"
+    },
+    {
+        "Course Name": "Entrepreneurship and E-business",
+        "Module": "Strategic Initiatives for Technology",
+        "Divided Content": "Hour 8:  definition,  Components of eprocurement systems"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Introduction to Software Engineering",
+        "Divided Content": "Hour 1: Nature of Software,  Incremental Process Models,  Scrum"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Introduction to Software Engineering",
+        "Divided Content": "Hour 2:  Software Engineering,  Evolutionary Process Models,  Kanban model"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Introduction to Software Engineering",
+        "Divided Content": "Hour 3:  \r\nSoftware Process,  Concurrent Models"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Introduction to Software Engineering",
+        "Divided Content": "Hour 4:  Capability Maturity Model (CMM) Generic Process Model,  Agile process"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Introduction to Software Engineering",
+        "Divided Content": "Hour 5:  Prescriptive Process Models: The Waterfall Model,  Agility Principles"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Introduction to Software Engineering",
+        "Divided Content": "Hour 6:  V-model,  Extreme Programming (XP)"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Requirement Analysis",
+        "Divided Content": "Hour 1: Software Requirements: Functional & non-functional ,  Analysis and modelling Requirement Elicitation"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Requirement Analysis",
+        "Divided Content": "Hour 2:  \r\nuser-system requirement engineering process ,  Software requirement specification (SRS)"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Requirement Analysis",
+        "Divided Content": "Hour 3:  feasibility studies , "
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Requirement Analysis",
+        "Divided Content": "Hour 4:  elicitation "
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Requirement Analysis",
+        "Divided Content": "Hour 5:  validation & management "
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Requirement Analysis",
+        "Divided Content": "Hour 6:  software prototyping "
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Requirement Analysis",
+        "Divided Content": "Hour 7:  S/W documentation "
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Software Estimation and Scheduling",
+        "Divided Content": "Hour 1: Management Spectrum,  Object based estimation"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Software Estimation and Scheduling",
+        "Divided Content": "Hour 2: \r\n 3Ps (people,  use-case based estimation Project scheduling: Defining a Task Set for the Software Project"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Software Estimation and Scheduling",
+        "Divided Content": "Hour 3:  product and process) Process and Project metrics Software Project Estimation: LOC,  Timeline charts"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Software Estimation and Scheduling",
+        "Divided Content": "Hour 4:  FP,  Tracking the Schedule"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Software Estimation and Scheduling",
+        "Divided Content": "Hour 5:  Empirical Estimation Models - COCOMO II Model,  Earned Value Analysis"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Software Estimation and Scheduling",
+        "Divided Content": "Hour 6:  Specialized Estimation Techniques"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Design Engineering",
+        "Divided Content": "Hour 1: Design Process & quality,  Modeling Component level Design: component"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Design Engineering",
+        "Divided Content": "Hour 2:  Design Concepts,  Designing class based components"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Design Engineering",
+        "Divided Content": "Hour 3:  \r\nThe design Model,  conducting component-level design"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Design Engineering",
+        "Divided Content": "Hour 4:  Pattern-based Software Design. 4.2 Architectural Design :Design Decisions,  User Interface Design: The golden rules"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Design Engineering",
+        "Divided Content": "Hour 5:  Views,  Interface Design steps & Analysis"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Design Engineering",
+        "Divided Content": "Hour 6:  Patterns,  Design Evaluation"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Design Engineering",
+        "Divided Content": "Hour 7:  Application Architectures"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Software Risk, Configuration Management",
+        "Divided Content": "Hour 1: Risk Identification,  Software Reliability"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Software Risk, Configuration Management",
+        "Divided Content": "Hour 2:  Risk Assessment,  Formal Technical Review (FTR)"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Software Risk, Configuration Management",
+        "Divided Content": "Hour 3:  Risk Projection,  Walkthrough"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Software Roftware, Configuration Management",
+        "Divided Content": "Hour 4:  \r\nRMMM Software Configuration management"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Software Rrepositories, Configuration Management",
+        "Divided Content": "Hour 5:  SCM repositories"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Software Rprocess, Configuration Management",
+        "Divided Content": "Hour 6:  SCM process Software Quality Assurance Task and Plan"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Software Retrics, Configuration Management",
+        "Divided Content": "Hour 7:  Metrics"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Software Testing and Maintenance",
+        "Divided Content": "Hour 1: Testing: Software Quality"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Software Testing and Maintenance",
+        "Divided Content": "Hour 2:  Testing: Strategic Approach"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Software Testing and Maintenance",
+        "Divided Content": "Hour 3: \r\n Strategic Issues- Testing: Strategies for Conventional Software"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Software Testing and Maintenance",
+        "Divided Content": "Hour 4:  Object oriented software"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Software Testing and Maintenance",
+        "Divided Content": "Hour 5:  Web AppsValidating Testing- System Testing- Art of Debugging. Maintenance : Software Maintenance-Software Supportability- Reengineering-"
+    },
+    {
+        "Course Name": "Software Engineering",
+        "Module": "Software Testing and Maintenance",
+        "Divided Content": "Hour 6:  Business Process Reengineering- Software Reengineering- Reverse Engineering- Restructuring- Forward Engineering"
+    }
+]

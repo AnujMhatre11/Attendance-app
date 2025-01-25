@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "AttendanceApp-expo",
+    "slug": "AttendanceApp-expo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/attendance_icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.AttendanceAppexpo"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/attendance_icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.AttendanceAppexpo",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "data": [
+            {
+              "scheme": "myapp",
+              "pathPrefix": "/auth/callback"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

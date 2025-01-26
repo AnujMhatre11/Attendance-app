@@ -1,35 +1,37 @@
 import { useContext, useState } from "react";
 import { supabase } from "../utils/supabase";
+import { UUIDContext } from "../context/uuidContext";
 
 
-let currentUUID: string | null = null
+const {currentUUID, setCurrentUUID} = useContext(UUIDContext)
+console.log("UUID in APIs: ", currentUUID);
 
 
-//login 
-export const fetchSessionData = async () => {
-  try {
-    const { data: { session }, error } = await supabase.auth.getSession();
-    if (error) {
-      console.error('Error fetching session:', error.message);
-      return null;
-    }
+// //login 
+// export const fetchSessionData = async () => {
+//   try {
+//     const { data: { session }, error } = await supabase.auth.getSession();
+//     if (error) {
+//       console.error('Error fetching session:', error.message);
+//       return null;
+//     }
 
-    if (session) {
-      const userID = session.user.id;
-      currentUUID = userID //for dynamically fetching
-      // currentUUID = '33333333-3333-3333-3333-333333333333' // for student temp
-      // currentUUID = '22222222-2222-2222-2222-222222222222' // for teacher temp
-      console.log('current uuid, updated from fetchSessionData: ', currentUUID)
-      return userID;
-    } else {
-      console.log('No active session');
-      return null;
-    }
-  } catch (err) {
-    console.error('Unexpected error:', err);
-    return null;
-  }
-};
+//     if (session) {
+//       const userID = session.user.id;
+//       currentUUID = userID //for dynamically fetching
+//       // currentUUID = '33333333-3333-3333-3333-333333333333' // for student temp
+//       // currentUUID = '22222222-2222-2222-2222-222222222222' // for teacher temp
+//       console.log('current uuid, updated from fetchSessionData: ', currentUUID)
+//       return userID;
+//     } else {
+//       console.log('No active session');
+//       return null;
+//     }
+//   } catch (err) {
+//     console.error('Unexpected error:', err);
+//     return null;
+//   }
+// };
 
 // studunt view
 export const fetchStudentInfo = async () => {

@@ -93,6 +93,9 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
+        manifestPlaceholders = [
+            appAuthRedirectScheme: "com.anonymous.authtest.auth"  // Replace with your unique scheme
+        ]
     }
     signingConfigs {
         debug {

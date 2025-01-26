@@ -29,12 +29,14 @@
                android:allowBackup="false"
                android:theme="@style/AppTheme"
                android:supportsRtl="true">
+
     <activity android:name=".MainActivity"
               android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|uiMode"
               android:launchMode="singleTask"
               android:windowSoftInputMode="adjustResize"
               android:theme="@style/Theme.App.SplashScreen"
               android:exported="true">
+
       <!-- Main launcher -->
       <intent-filter>
         <action android:name="android.intent.action.MAIN"/>
@@ -46,16 +48,23 @@
         <action android:name="android.intent.action.VIEW" />
         <category android:name="android.intent.category.DEFAULT" />
         <category android:name="android.intent.category.BROWSABLE" />
-        <data android:scheme="myapp" android:host="auth" />
+        <data android:scheme="com.anonymous.AttendanceAppexpo" />
       </intent-filter>
 
-      <!-- Support deep linking for Expo Development Client -->
-      <intent-filter>
-        <action android:name="android.intent.action.VIEW" />
-        <category android:name="android.intent.category.DEFAULT" />
-        <category android:name="android.intent.category.BROWSABLE" />
-        <data android:scheme="myapp" android:host="expo-development-client" />
-      </intent-filter>
     </activity>
+
+    <!-- Redirect URI Receiver Activity -->
+        <activity
+            android:name="net.openid.appauth.RedirectUriReceiverActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data 
+                    android:scheme="com.anonymous.authtest.auth" 
+                    android:host="oauth" />
+            </intent-filter>
+        </activity>
+
   </application>
 </manifest>

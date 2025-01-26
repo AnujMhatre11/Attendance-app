@@ -2,22 +2,29 @@ import React, { useContext, useEffect, useState, useCallback } from 'react';
 import { View, Text, StyleSheet, FlatList, ScrollView, RefreshControl, TouchableOpacity } from 'react-native';
 import { useRouter } from 'expo-router';
 import { fetchStudentInfo, getActiveSessionsForStudent } from '../api/useGetData';
-import { UserContext } from '../context/UserContext';
+import { UUIDContext } from '../context/uuidContext';
+import { useLocalSearchParams, useSearchParams } from 'expo-router/build/hooks';
 
 const StudentView = () => {
   const router = useRouter();
   const [studentInfo, setStudentInfo] = useState(null);
   const [activeSessions, setActiveSessions] = useState([]);
   const [isRefreshing, setIsRefreshing] = useState(false);
-  const { user } = useContext(UserContext);
+  const { uuidParam } = useLocalSearchParams();
+  
+  useEffect(() => {
+    console.log("uuidParam: ",uuidParam);
+  }, [uuidParam])
 
   useEffect(() => {
     const fetchData = async () => {
-      const info = await fetchStudentInfo();
-      setStudentInfo(info || null);
+      // Add a guard to ensure UUID is not null or undefined
+        console.log("Fetching student side info with uuid: ", uuidParam)
+        const info = await fetchStudentInfo(uuidParam);
+        setStudentInfo(info || null);
     };
     fetchData();
-  }, [user]);
+  }, [uuidParam]);;
 
   const fetchActiveSessions = useCallback(async () => {
     if (studentInfo) {

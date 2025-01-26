@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useState, useCallback, useEffect, useContext } from 'react';
 import { Button, View, Text, Alert } from 'react-native';
 import axios from 'axios';
 import { authorize } from 'react-native-app-auth';
@@ -11,29 +11,27 @@ const AuthScreen = () => {
   const [clientId, setClientId] = useState(null);
   const [userRole, setUserRole] = useState(null);
   const router = useRouter();
-  const {UUID, setUUID} = useContext(UUIDContext);
+  const { UUID, setUUID } = useContext(UUIDContext);
 
-  const fetchAuthDetails = async () => {
+  const fetchAuthDetails = useCallback(async () => {
     try {
-      console.log('Fetching OAuth details from server...');
       const response = await axios.post('https://its-siesgst-auth.onrender.com/auth/startOAuthFlowApp', {});
       const { clientId } = response.data;
-      console.log('Received OAuth details:', { clientId });
       setClientId(clientId);
       return { clientId };
     } catch (error) {
-      console.error('Error fetching OAuth details:', error);
       Alert.alert('Error', 'Failed to fetch OAuth details');
       throw error;
     }
-  };
+  }, []);
 
-  const handleLogin = async () => {
+  const handleLogin = async (role) => {
     try {
-      console.log(`Initiating login process for ${userRole}...`);
+      // Set the role before proceeding with login
+      setUserRole(role);
+
       let oauthDetails = { clientId };
       if (!clientId) {
-        console.log('Missing OAuth details. Fetching before login...');
         oauthDetails = await fetchAuthDetails();
       }
 
@@ -49,52 +47,47 @@ const AuthScreen = () => {
         skipCodeExchange: false,
       };
 
-      console.log('Authorization configuration:', config);
       const result = await authorize(config);
-      console.log('Full Authorization Result:', result);
 
       if (!result.idToken) {
         throw new Error('No idToken received');
       }
 
-      const { idToken } = result;
-      const decodedToken = jwtDecode(idToken);
+      const decodedToken = jwtDecode(result.idToken);
       const { email } = decodedToken;
 
       if (!email) {
         throw new Error('Email not found in the idToken');
       }
 
-      console.log('Email extracted from idToken:', email);
       const verificationResponse = await axios.post(
         'https://its-siesgst-auth.onrender.com/auth/verifyAuthCode',
         { email }
       );
 
-      console.log('Verification response:', verificationResponse.data);
-
       if (verificationResponse.data.status === 'success') {
-        console.log('Login successful');
         setAuthState(verificationResponse.data);
-        Alert.alert('Success', 'Login successful');
         
-        setUUID(verificationResponse.data.authId)
-        console.log("Auth ID in context: ", UUID)
-        // Navigate based on user role
-        if (userRole === 'teacher') {
-          router.push('/components/TeacherView');
-        } else if (userRole === 'student') {
-          router.push('/components/StudentView');
+        const authId = verificationResponse.data.authId;
+        setUUID(authId);
+        console.log("Auth ID:", authId);
+
+        if (role === 'teacher') {
+          router.push({
+            pathname: '/components/TeacherView',
+            params: { uuidParam: authId }
+          });
+        } else if (role === 'student') {
+          router.push({
+            pathname: '/components/StudentView', 
+            params: { uuidParam: authId }
+          });
         }
       } else {
         throw new Error('Verification failed');
       }
     } catch (error) {
-      console.error('Detailed OAuth login error:', {
-        errorMessage: error.message,
-        serverResponse: error.response?.data,
-        fullError: error,
-      });
+      console.error('Detailed OAuth login error:', error);
       Alert.alert(
         'Login Error',
         error.response?.data?.error || error.message || 'An unexpected error occurred'
@@ -103,9 +96,12 @@ const AuthScreen = () => {
   };
 
   useEffect(() => {
-    console.log('Component mounted. Fetching initial OAuth details.');
     fetchAuthDetails();
-  }, []);
+  }, [fetchAuthDetails]);
+
+  useEffect(() => {
+    console.log("effect called, UUID in context: ", UUID)
+  }, [UUID])
 
   return (
     <View>
@@ -114,24 +110,12 @@ const AuthScreen = () => {
         <View>
           <Button
             title="Login as Teacher"
-            onPress={() => {
-              setUserRole('teacher');
-              handleLogin();
-            }}
+            onPress={() => handleLogin('teacher')}
           />
           <Button
             title="Login as Student"
-            onPress={() => {
-              setUserRole('student');
-              handleLogin();
-            }}
+            onPress={() => handleLogin('student')}
           />
-        </View>
-      )}
-      {authState && (
-        <View>
-          <Text>User ID: {authState.uid}</Text>
-          <Text>Auth ID: {authState.authId}</Text>
         </View>
       )}
     </View>

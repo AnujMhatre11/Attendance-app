@@ -1,10 +1,9 @@
-import { useContext, useState } from "react";
+import { useContext, useEffect } from "react";
 import { supabase } from "../utils/supabase";
 import { UUIDContext } from "../context/uuidContext";
 
+export let currentUUID: any = undefined;
 
-const {currentUUID, setCurrentUUID} = useContext(UUIDContext)
-console.log("UUID in APIs: ", currentUUID);
 
 
 // //login 
@@ -34,13 +33,16 @@ console.log("UUID in APIs: ", currentUUID);
 // };
 
 // studunt view
-export const fetchStudentInfo = async () => {
+export const fetchStudentInfo = async (UUID) => {
   try {
     // Fetch student information based on UUID
+
+    currentUUID = UUID;
+
     const { data, error } = await supabase
       .from("student_info")
       .select("*")
-      .eq("user_id", currentUUID);
+      .eq("user_id", UUID)
 
 
     if (error) {
@@ -61,12 +63,15 @@ export const fetchStudentInfo = async () => {
 };
 
 // teacher view
-export const fetchFacultyInfo = async () => {
+export const fetchFacultyInfo = async (UUID) => {
+
+  currentUUID = UUID;
+
   try {
     const { data, error } = await supabase
       .from("faculty")
       .select("*, user_id") // Make sure to select user_id
-      .eq("user_id", currentUUID)
+      .eq("user_id", UUID)
       .single();
 
     if (error) {
